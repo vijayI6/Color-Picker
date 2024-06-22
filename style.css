@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://i2.wp.com/zeevector.com/wp-content/uploads/Colorful-Background-HD.png?fit=1942%2C1476&ssl=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    box-sizing: border-box;
+    width: 40%;
+    height: 45vh;
+    border: transparent;
+}
+
+.text {
+    margin: 20px;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+.label {
+    margin-top: 15px;
+    margin-left: 620px;
+    font-size: large;
+}
+
+#rgb,
+#hsl,
+#hex {
+    height: 30px;
+    margin: 7px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 10px 10px rgb(237, 202, 202);
+}
