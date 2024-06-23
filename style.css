@@ -51,4 +51,5 @@ body {
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     box-shadow: 5px 10px 10px rgb(237, 202, 202);
+    cursor: pointer;
 }
