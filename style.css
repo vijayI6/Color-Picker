@@ -58,9 +58,9 @@ body {
     cursor: pointer;
 }
 
-#rights{
+#rights {
     display: grid;
-    margin-top: 8px;
+    margin-top: 10px;
     justify-content: center;
     align-content: center;
     font-size: large;
@@ -95,6 +95,14 @@ body {
         width: 50%;
         font-size: 18px;
     }
+
+    #rights {
+        display: grid;
+        margin-top: 10px;
+        justify-content: center;
+        align-content: center;
+        font-size: large;
+    }
 }
 
 /*For Tablets Devices */
@@ -118,6 +126,14 @@ body {
     #hex {
         width: 60%;
         font-size: 20px;
+    }
+
+    #rights {
+        display: grid;
+        margin-top: 8px;
+        justify-content: center;
+        align-content: center;
+        font-size: large;
     }
 }
 
@@ -143,5 +159,13 @@ body {
         width: 40%;
         font-size: 22px;
         text-align: center;
+    }
+
+    #rights {
+        display: grid;
+        margin-top: 8px;
+        justify-content: center;
+        align-content: center;
+        font-size: large;
     }
 }
