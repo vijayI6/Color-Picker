@@ -58,6 +58,14 @@ body {
     cursor: pointer;
 }
 
+#rights{
+    display: grid;
+    margin-top: 8px;
+    justify-content: center;
+    align-content: center;
+    font-size: large;
+}
+
 
 /* For Mobile Devices */
 @media only screen and (max-width: 600px) {
