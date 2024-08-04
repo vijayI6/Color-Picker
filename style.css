@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("https://i2.wp.com/zeevector.com/wp-content/uploads/Colorful-Background-HD.png?fit=1942%2C1476&ssl=1");
+    background-image: url("assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,22 +22,26 @@ body {
 
 #box {
     box-sizing: border-box;
-    width: 40%;
-    height: 45vh;
-    border: transparent;
+    width: 33%;
+    height: 40vh;
+    border: 4px solid black;
+    border-radius: 50%;
 }
 
 .text {
-    margin: 20px;
-    padding: 30px;
+    margin: 40px;
+    padding: 38px;
     border-radius: 25px;
     background-color: transparent;
+    color: rgba(0, 0, 0, 0.756);
+    font-size: large;
 }
 
 .label {
-    margin-top: 15px;
-    margin-left: 620px;
-    font-size: large;
+    color: black;
+    margin-top: 20px;
+    margin-left: 650px;
+    font-size: x-large;
 }
 
 #rgb,
@@ -47,9 +51,89 @@ body {
     margin: 7px;
     padding: 20px;
     border: none;
-    border-radius: 20px;
-    font-size: large;
+    border-radius: 25px;
+    font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
-    box-shadow: 5px 10px 10px rgb(237, 202, 202);
+    box-shadow: 3px 8px 10px rgb(227, 6, 6);
     cursor: pointer;
+}
+
+
+/* For Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .text {
+        font-size: small;
+    }
+
+    .container {
+        margin-top: 10px;
+        margin-left: 10px;
+        flex-direction: column;
+    }
+
+    #box {
+        width: 90%;
+        height: 30vh;
+    }
+
+    .label {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #rgb,
+    #hsl,
+    #hex {
+        width: 50%;
+        font-size: 18px;
+    }
+}
+
+/*For Tablets Devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #box {
+        width: 50%;
+        height: 35vh;
+    }
+
+    .label {
+        margin-left: 240px;
+    }
+
+    #rgb,
+    #hsl,
+    #hex {
+        width: 60%;
+        font-size: 20px;
+    }
+}
+
+/* For Desktop Devices */
+@media only screen and (min-width: 1025px) {
+    .container {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    #box {
+        width: 33%;
+        height: 40vh;
+    }
+
+    .label {
+        margin-left: 600px;
+    }
+
+    #rgb,
+    #hsl,
+    #hex {
+        width: 40%;
+        font-size: 22px;
+        text-align: center;
+    }
 }
