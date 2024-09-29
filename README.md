@@ -11,7 +11,7 @@ ColourPic is a web-based tool that allows users to pick a color and instantly se
 
 ## Demo
 
-You can view a live demo of the tool at [https://colourpic.netlify.app](https://colourpic.netlify.app).
+You can view a live demo of the tool at
 
 ## Features
 
