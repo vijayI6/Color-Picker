@@ -18,7 +18,6 @@ You can view a live demo of the tool at https://vijayi6.github.io/Color-Picker/
 - Real-time color selection and conversion
 - Displays RGB, HSL, and HEX values simultaneously
 - Simple and intuitive user interface
-- Copy color codes to clipboard functionality
 
 ## Usage
 
