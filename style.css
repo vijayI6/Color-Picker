@@ -39,7 +39,7 @@ body {
 .label {
     color: black;
     margin-top: 20px;
-    margin-left: 650px;
+    margin-left: 630px;
     font-size: x-large;
 }
 
@@ -60,6 +60,7 @@ body {
 
 #rights {
     display: grid;
+    padding: 20px;
     margin-top: 10px;
     margin-left: 30px;
     justify-content: center;
@@ -93,13 +94,14 @@ body {
     #rgb,
     #hsl,
     #hex {
-        width: 50%;
+        width: 60%;
         text-align: center;
         font-size: 18px;
     }
 
     #rights {
         display: grid;
+        padding: 10px;
         margin-top: 10px;
         justify-content: center;
         align-content: center;
@@ -115,7 +117,7 @@ body {
     }
 
     #box {
-        width: 50%;
+        width: 57%;
         height: 35vh;
     }
 
@@ -127,13 +129,14 @@ body {
     #rgb,
     #hsl,
     #hex {
-        width: 40%;
+        width: 30%;
         font-size: 20px;
         text-align: center;
     }
 
     #rights {
         display: grid;
+        padding: 20px;
         margin-top: 8px;
         margin-left: 60px;
         justify-content: center;
@@ -150,7 +153,7 @@ body {
     }
 
     #box {
-        width: 33%;
+        width: 35%;
         height: 40vh;
     }
 
@@ -162,13 +165,14 @@ body {
     #rgb,
     #hsl,
     #hex {
-        width: 25%;
+        width: 15%;
         font-size: 22px;
         text-align: center;
     }
 
     #rights {
         display: grid;
+        padding: 20px;
         margin-top: 10px;
         margin-left: 60px;
         justify-content: center;
