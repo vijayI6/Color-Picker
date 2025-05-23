@@ -41,7 +41,6 @@ body {
 .label {
     color: black;
     margin-top: 20px;
-    margin-left: 630px;
     font-size: x-large;
 }
 
@@ -175,13 +174,13 @@ body {
 
     .label {
         text-align: center;
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     #rgb,
     #hsl,
     #hex {
-        width: 17.7%;
+        width: 17.8%;
         font-size: 20px;
         text-align: center;
     }
