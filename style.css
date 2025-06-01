@@ -22,8 +22,8 @@ body {
 
 #box {
     box-sizing: border-box;
-    width: 33%;
-    height: 40vh;
+    width: 40%;
+    height: 35vh;
     border: 4px solid black;
 }
 
@@ -123,7 +123,7 @@ body {
     }
 
     #box {
-        width: 57%;
+        width: 60%;
         height: 35vh;
     }
 
@@ -148,7 +148,7 @@ body {
         justify-content: center;
         align-content: center;
         font-size: 23px;
-        color: black;
+        color: aliceblue;
     }
 }
 
@@ -159,7 +159,7 @@ body {
     .text {
         margin: 30px;
         text-align: center;
-        padding-left: 30px;
+        padding-left: 40px;
     }
 
     .container {
@@ -168,8 +168,8 @@ body {
     }
 
     #box {
-        width: 35%;
-        height: 40vh;
+        width: 40%;
+        height: 35vh;
     }
 
     .label {
@@ -188,7 +188,7 @@ body {
     #rights {
         display: grid;
         padding: 20px;
-        margin-top: 10px;
+        margin-top: 15px;
         margin-left: 60px;
         justify-content: center;
         align-content: center;
