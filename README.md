@@ -1,6 +1,6 @@
 # ColourPicker
 
-ColourPic is a web-based tool that allows users to pick a color and instantly see its RGB, HSL, and HEX values. This implementation uses HTML, CSS, and JavaScript to create an intuitive and user-friendly interface for color selection.
+ColourPic is a web-based tool that allows users to pick a color and instantly see its RGB, HSL, and HEX values. This implementation uses HTML, CSS, and JavaScript to create an user-friendly interface for color selection.
 
 ## Table of Contents
 
